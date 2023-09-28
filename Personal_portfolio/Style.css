@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.body{
+	font-family: "Roboto", sans-serif;
+}
+
+
+.container {
+  width: 1180px;
+  margin: auto;
+  padding: 0px;
+}
+
+
+.logoPic img {
+  width: 66px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.logoPic {
+  float: left;
+  display: block;
+}
+
+#header {
+  height: 95px;
+  background: #DFDFDF;
+  position: sticky;
+  top: 0;
+}
+.navBar {
+  float: right;
+  display: block;
+}
+
+.navList {
+  list-style-type: none;
+}
+
+.navList li {
+  float: left;
+  padding-left: 38;
+  margin-top: 11px;
+}
+
+.navList li a {
+  text-decoration: none;
+  color: #353535;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+#firstBtn{
+	color: green;
+}
+
+.navBtn {
+  margin-left: 100px;
+  background: white;
+  border: 3px solid #2CCEAF;
+  border-radius: 20px;
+  font-size: 18px;
+  padding: 8px;
+}
+
+.navBtn a{
+	text-decoration: none;
+	color: #2CCEAF;
+}
+
+.primaryL {
+  width: 990px;
+}
+
+#firstBtn a {
+  color: green;
+}
+
+.homeWrap {
+	width: 1180px;
+    height: 500px;
+	background-color: #0BCEAF;
+	
+}
+.homeImg{
+	width: 50%;
+	height: auto;
+	margin-left: 128px;
+}
+
+.homeImg img {
+	border-radius: 50%;
+	margin-top: 45px;
+	width: 370px;
+	height: 358;
+}
+
+.homeDetail {
+	margin: auto;
+	float: right;
+	width: 170px;
+}
+
+
+.homeDetail h4 {
+  font-family: "Roboto", sans-serif;
+  /*! -webkit-text-stroke: 2px white; */
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 75;
+}
+.homeDetail h2 {
+  -webkit-text-stroke: 2px white;
+  color: #0BCEAF;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 67px;
+  width: 370px;
+  display: block;
+}
+
+#aboutSection {
+  width: 1255px;
+  height: 530px;
+}
+
+.abtImg img {
+  width: 400px;
+  margin-top: 200px;
+}
+
+.abtImg img {
+  float: left;
+  width: 50%;
+  margin: revert;
+  max-height: 370px;
+  max-width: 435px;
+  padding-left: 80px;
+  padding-top: 40px;
+}
+.aBoutDtls {
+  width: 50%;
+  float: right;
+}
+
+
+.aBoutDtls h2 {
+  font-size: 40px;
+}
+.aBoutDtls p {
+  font-size: 18px;
+}
+.FabtAdd {
+  float: left;
+  width: 50%;
+}
+
+.abtBtn {
+  width: 50%;
+}
+
+.firstBtn {
+
+    width: 90px;
+    height: 40px;
+    font-size: 18px;
+    border: 1px solid #2CCEAF;
+    border-radius: 25px;
+	background: white;
+	color: #2CCEAF;
+
+}
+
+.lastBtn {
+    margin-left: 45px;
+    width: 110px;
+    height: 40px;
+    font-size: 18px;
+    border: 1px solid #2CCEAF;
+    border-radius: 25px;
+	background: white;
+	color: #2CCEAF;
+}
+
+#qualitySecton {
+	height: 590px;
+}
+
+#eduTitle  {
+	text-align: center;
+	color: #0BCEAF;
+	text-transform: uppercase;
+	font-size: 30px;
+}
+
+.fQuality {
+  width: 50%;
+  float: left;
+}
+.fQuality h3 {
+  font-family: "Roboto", sans-serif;
+  padding-left: 30px;
+  font-size: 25px;
+}
+.qBorder {
+	border-left: 1px solid green;
+	margin-left: 30px;
+}
+
+
+.lQuality {
+  width: 50%;
+  float: right;
+}
+
+.lQuality h3 {
+  font-family: "Roboto", sans-serif;
+  padding-left: 30px;
+  font-size: 25px;
+}
+
+.EQuality h5 {
+  line-height: 0;
+  margin-left: 35px;
+  font-size: 20px;
+  color: #343A40;
+  
+}
+.EQuality span {
+  line-height: 0;
+  color: #6C757D;
+  margin-left: 35px;
+}
+
+.WQuality h5{
+  line-height: 0;
+  margin-left: 35px;
+  font-size: 20px;
+  color: #343A40;
+}
+
+.WQuality span {
+  line-height: 0;
+  color: #6C757D;
+  margin-left: 35px;
+}
+
+.EQuality p {
+  margin-left: 35px;
+  font-size: 17;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+}
+
+.WQuality p {
+  margin-left: 35px;
+  font-size: 17;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+}
+#Skill{
+	height: 500px;
+	display: block;
+
+}
+
+.Scontainer {
+	width: 100%;
+	background-color: #ddd;
+	border-radius: 100px;
+	height: 20px;
+}
+
+
+.skills {
+  text-align: right;
+  color: white;
+   border-radius: 100px;
+  padding-top: 2px;
+}
+
+.skillWrapper {
+  margin-top: 110px;
+}
+
+.html {width: 90%; background-color: #04AA6D;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.skills.c {width: 60%; background-color: red;}
+.java {width: 65%; background-color: #808080;}
+.python {width: 40%; background-color: #CF9F1A;}
+
+.leftSkill{
+	width: 48%;
+	float: left;
+}
+
+.rightSkill {
+  width: 48%;
+  float: right;
+}
+
+#myService {
+	height: 500px;
+	display: block;
+	
+}
+
+.serviceTitle h2{
+	text-align: center;
+	color: #0BCEAF;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+
+.service-icon{
+    font-size: 36px !important;
+	background: #0BCEAF;
+	color: white;
+	width: 60px;
+	height: 60;
+	justify-content: center !important;
+	border-radius: 60px;
+	display: flex !important;
+	align-items: center;
+	float: left;
+}
+
+
+.sfirst h3 {
+  width: 250px;
+  margin-left: 80px;
+  font-size: 25px;
+  padding-top: 15px;
+}
+
+.sfirst p {
+  width: 343px;
+  color: #6E757D;
+  font-size: 18px;
+}
+
+.sfirst {
+  justify-content: center;
+  text-align: center;
+  float: left;
+  width: 390px;
+}
+
+
+#myPortfolio {
+	height: 735px;
+	display: block;
+}
+
+.btnGroup {
+  text-align: center;
+}
+
+.btnGroup button {
+  padding: 10px;
+  background: white;
+  border: 1px solid #0BCEAF;
+  border-radius: 100px;
+  padding-right: 22px;
+  padding-left: 22px;
+}
+
+.btnGroup button:first-child{
+	background: #0BCEAF;
+	color: white;
+}
+
+
+.portF img {
+  width: 335px;
+  margin-left: 35px;
+  margin-top: 30px;
+}
+.portF {
+  float: left;
+}
+
+#Contact {
+	height: 500px;
+	display: block;
+}
+
+.cTitle {
+  text-align: center;
+  color: #0BCEAF;
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-top: 30px;
+}
+
+#foTer {
+	background-color: #0BCEAF;
+	height: 320px;
+	
+}
+
+.Sicon {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.Sicon a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: black;
+  background: white;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  padding: 15px 18px;
+  border-radius: 100%;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  padding: 15px 17px;
+  border-radius: 100%;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  padding: 15px 17px;
+  border-radius: 100%;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  padding: 15px 18px;
+  border-radius: 100%;
+}
+
+.frm1 {
+  float: left;
+  width: 50%;
+  text-align: right;
+  padding: ;
+}
+
+.frm2 {
+  float: right;
+  width: 50%;
+  text-align: left;
+}
+
+.form_row {
+  text-align: center;
+  height: 65px;
+  display: block;
+}
+
+#fname {
+  padding: 20px;
+  padding-left: 220px;
+  margin-right: 10px;
+  border-radius: 25px;
+  border: 1px solid black;
+}
+
+#Sname {
+  width: 68%;
+  border-radius: 25px;
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.contactWrapper {
+  text-align: center !important;
+  box-sizing: border-box;
+}
+
+.conct_justify {
+  justify-content: center !important;
+}
+
+#message {
+  width: 67%;
+  height: 155px;
+}
+
+.formClmn {
+  padding-top: 15px;
+}
+
+.contactBtn {
+  padding-top: 15px;
+}
+
+#cBtn {
+  padding: 13px;
+  border-radius: 25px;
+  font-size: 18px;
+  border: 1px solid #0BCEAF;
+  background: white;
+  color: #0BCEAF;
+}
+
+#cBtn a {
+  color: #0BCEAF;
+  text-decoration: none;
+}
+
+
+.fListWrapper {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.fList {
+  display: inline;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 18px;
+}
+
+
+.fLists {
+  margin: 5px;
+  color: white;
+  font-size: 22px;
+}
